@@ -1,0 +1,22 @@
+{
+  "name": "coverage-tahini-crib",
+  "version": "1.0.0",
+  "description": "coverage reporting hack",
+  "main": "index.js",
+  "scripts": {
+    "test": "mv node_modules/tahini/canon/crib src && cd src && yarn && npm run test -- --coverage --no-watchman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikfrank/coverage-tahini-crib.git"
+  },
+  "author": "nik frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikfrank/coverage-tahini-crib/issues"
+  },
+  "homepage": "https://github.com/nikfrank/coverage-tahini-crib#readme",
+  "dependencies": {
+    "tahini": "git+https://github.com/nikfrank/tahini.git"
+  }
+}
