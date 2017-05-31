@@ -4,7 +4,8 @@
   "description": "coverage reporting hack",
   "main": "index.js",
   "scripts": {
-    "test": "mv node_modules/tahini/canon/crib src && cd src && yarn && npm run test -- --coverage --no-watchman"
+    "test": "mv node_modules/tahini/canon/crib src && cd src && yarn && npm run test -- --coverage --no-watchman",
+    "coveralls": "cat ./src/coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/nikfrank/coverage-tahini-crib#readme",
   "dependencies": {
+    "coveralls": "^2.13.1",
     "tahini": "git+https://github.com/nikfrank/tahini.git"
   }
 }
