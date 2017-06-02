@@ -1,6 +1,6 @@
 {
   "name": "coverage-tahini-crib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "coverage reporting hack",
   "main": "index.js",
   "scripts": {
