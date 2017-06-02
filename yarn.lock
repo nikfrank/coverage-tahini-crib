@@ -513,7 +513,7 @@ symbol-observable@^1.0.2:
 
 "tahini@git+https://github.com/nikfrank/tahini.git":
   version "1.3.2"
-  resolved "git+https://github.com/nikfrank/tahini.git#13d0ca33a3a06ff823d60167dd2b62b9781d7652"
+  resolved "git+https://github.com/nikfrank/tahini.git#e9152962ff553032cdaa4a64994b77048902ec22"
   dependencies:
     immutable "^3.8.1"
     react "^15.5.3"
